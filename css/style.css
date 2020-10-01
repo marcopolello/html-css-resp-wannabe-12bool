@@ -5,7 +5,10 @@
   box-sizing: border-box;
 }
 .row{
-  margin-bottom: 100px;
+  margin-bottom: 80px;
+}
+#lezioni:first-child .row{
+  margin-top: 50px;
 }
 
 #lezioni .row img {
@@ -73,17 +76,29 @@ img {
 
 /* SMALL DEVICE */
 @media all and (max-width: 768px){
+
+  /* settaggi margini */
+  #lezioni:first-child .row{
+    margin-top: 10px;
+  }
   .row, .left{
     margin-bottom: 20px;
   }
+  .sx, .cx, .dx{
+    margin-bottom: 10px;
+  }
+
+  /* settaggi img e testi */
   img{
     height: 120px;
   }
   h1{
     font-size:26px;
+    color: red;
   }
   h3{
     font-size: 17.72px;
+    color: violet;
   }
   p{
     font-size: 15px;
@@ -92,17 +107,29 @@ img {
 
 /* MEDIUM DEVICE */
 @media all and (min-width: 769px) and (max-width: 992px){
+
+  /* settaggi margini */
+  #lezioni:first-child .row{
+    margin-top: 25px;
+  }
   .row, .left{
     margin-bottom: 50px;
   }
+  .sx, .cx, .dx{
+    margin-bottom: 30px;
+  }
+
+  /* settaggi img e testi */
   img{
     height: 150px;
   }
   h1{
     font-size:30px;
+    color:blue;
   }
   h3{
     font-size: 17.72px;
+    color:green;
   }
   p{
     font-size: 16px;
