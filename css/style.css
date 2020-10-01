@@ -10,29 +10,37 @@
 #lezioni:first-child .row{
   margin-top: 50px;
 }
-
+.st1, .nd2, .rd3, .th4{
+  margin: 20px 0;
+}
+#why{
+  border-bottom: 1px solid lightgrey;
+}
+/* per centrare orizzontalmente */
 #lezioni .row img {
-  /* per centrare orizzontalmente */
   display: block;
   margin-right: auto;
   margin-left: auto;
 }
-
 #lezioni, #steps, #why {
   text-align: center;
 }
+#why p{
+  width: 50%;
+  margin: 10px auto;
+}
 
-/* BLOCCO STEPS */
-#steps{
+/* SFONDI */
+#steps, #why{
   background-color: #f9f9f9;
 }
 
+/*  REGOLE IMMAGINI */
 #why .row img {
   background-color: #428bca;
   border-radius: 50%;
   padding: 30px
 }
-
 img {
   height: 200px;
 }
