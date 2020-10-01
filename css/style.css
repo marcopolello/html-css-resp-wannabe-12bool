@@ -1,7 +1,11 @@
+/* regole generali */
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+.row{
+  margin-bottom: 100px;
 }
 
 #lezioni .row img {
@@ -69,6 +73,9 @@ img {
 
 /* SMALL DEVICE */
 @media all and (max-width: 768px){
+  .row, .left{
+    margin-bottom: 20px;
+  }
   img{
     height: 120px;
   }
@@ -85,6 +92,9 @@ img {
 
 /* MEDIUM DEVICE */
 @media all and (min-width: 769px) and (max-width: 992px){
+  .row, .left{
+    margin-bottom: 50px;
+  }
   img{
     height: 150px;
   }
